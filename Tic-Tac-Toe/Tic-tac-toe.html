@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE WEB APPLICATION</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Tic.css">
+</head>
+<body>
+    <h1>TIC-TAC-TOE WEB APPLICATION</h1>
+    
+    <div class="game-container">
+        <div class="game-info">
+            <div class="player-turn">Player X's Turn</div>
+            <div class="game-status">Game in progress</div>
+        </div>
+        
+        <div class="game-board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        
+        <div class="controls">
+            <button class="btn-new-game">New Game</button>
+            <button class="btn-reset">Reset</button>
+            <button class="btn-mode">Play vs Computer</button>
+        </div>
+    </div>
+    
+    <div class="modal">
+        <div class="modal-content">
+            <h2>Game Over!</h2>
+            <p class="modal-message">Player X wins! 🎊</p>
+            <button class="btn-close-modal">Play Again</button>
+        </div>
+    </div>
+    <script src="Tic.js"></script>
+    
+</body>
+</html>
